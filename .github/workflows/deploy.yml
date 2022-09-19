@@ -14,5 +14,5 @@ jobs:
         with:
           name: 'MY_SECRET_NAME'
           value: 'Lorem ipsun dolor simit'
-          repository: hmanzur/actions-set-secret
+          repository: ajaychinthapalli/github-actions-secrets
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
