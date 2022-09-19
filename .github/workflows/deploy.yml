@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - uses: ./
+      - uses: hmanzur/actions-set-secret@v2.0.0
         with:
           name: 'MY_SECRET_NAME'
           value: ${{ secrets.MY_SECRET_NAME_VALUE }}
