@@ -13,6 +13,6 @@ jobs:
       - uses: hmanzur/actions-set-secret@v2.0.0
         with:
           name: 'MY_SECRET_NAME'
-          value: 'Lorem ipsun dolor simit'
+          value: ${{ secrets.MY_SECRET_NAME_VALUE }}
           repository: ajaychinthapalli/github-actions-secrets
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
